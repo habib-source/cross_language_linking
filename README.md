@@ -44,9 +44,9 @@ Exploring multiple ways to simplify the prossess of linking binarys.
 To run c functions on python we use the Python/C API. Using the python header `#include <Python.h>` in your c code You will manually handle Python objects (PyObject*), manage memory (reference counting), and define a module structure that Python recognizes natively. Thu this is very complex.
 So here we will explore difrent oss tools to make it very simple.
 
-### Natively:
+## Natively:
 
-## Bridge:
+### Bridge:
 
 * pybind11: The current industry standard for C++. It uses pure C++11 templates to create bindings. It's what powers PyTorch.
 
@@ -54,7 +54,7 @@ So here we will explore difrent oss tools to make it very simple.
 
 * SWIG: The "Old Guard." It uses a separate interface file (.i) to generate wrappers. It's powerful but feels very "un-Pythonic." Most modern developers avoid it unless they are wrapping a massive legacy codebase that needs to support multiple languages (like Java and Python simultaneously).
 
-## Languages:
+### Languages:
 
 Instead of writing a "bridge," you write code in a language that feels like Python but compiles to C.
 
