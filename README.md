@@ -35,7 +35,7 @@ While possible, it isn't always "plug and play." You often have to deal with:
 * **The Runtime:** Languages like Go or Python have "runtimes" (garbage collection, thread management). If you link C into Go, the Go runtime has to manage that foreign code carefully so it doesn't crash the program.
 * **Data Types:** A "string" in Python is a complex object, while a "string" in C is just a pointer to a memory address. You need a **bridge** to translate these types.
 
-## Obstacle
+## Objective:
 
 Exploring multiple ways to simplify the prossess of linking binarys.
 
