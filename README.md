@@ -60,7 +60,7 @@ Instead of writing a "bridge," you write code in a language that feels like Pyth
 
 * Cython: A superset of Python. You add type declarations to Python code, and it generates a C-API file for you.
 
-### At Runtime :
+## At Runtime :
 
 These don't create an ELF file ahead of time; they link things while the program is running.
 
